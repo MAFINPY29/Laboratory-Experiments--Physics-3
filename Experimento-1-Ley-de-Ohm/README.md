@@ -1,4 +1,4 @@
-# Experimento 3: Curvas Características Voltaje–Corriente (V–I)
+# Experimento 1: Curvas Características Voltaje–Corriente (V–I)
 
 ## 📌 Descripción general
 Este repositorio documenta el desarrollo experimental y el análisis de las **curvas características voltaje–corriente (V–I)** de distintos dispositivos eléctricos y electrónicos, realizado en el curso **Física III – Laboratorio** de la **Universidad Nacional de Ingeniería (UNI)**.

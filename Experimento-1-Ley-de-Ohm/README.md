@@ -1,4 +1,4 @@
-# Experimento 1: Curvas Características Voltaje–Corriente (V–I)
+# Experimento 3: Curvas Características Voltaje–Corriente (V–I)
 
 ## 📌 Descripción general
 Este repositorio documenta el desarrollo experimental y el análisis de las **curvas características voltaje–corriente (V–I)** de distintos dispositivos eléctricos y electrónicos, realizado en el curso **Física III – Laboratorio** de la **Universidad Nacional de Ingeniería (UNI)**.
@@ -76,5 +76,25 @@ Los datos experimentales serán:
 - Python (NumPy, Pandas, Matplotlib)
 - Jupyter Notebook
 - LaTeX (documentación académica)
-- GitHub (doc
+- GitHub (documentación y control de versiones)
+
+---
+
+## 🎓 Contexto académico
+
+- Curso: **Física III – Laboratorio**
+- Facultad: Ciencias
+- Carrera: **Ingeniería Física**
+- Universidad: **Universidad Nacional de Ingeniería (UNI)**
+
+Este proyecto forma parte de un portafolio académico orientado a fortalecer la formación en análisis experimental y programación científica, con miras a **postulaciones académicas y becas internacionales**.
+
+---
+
+## 📬 Autor
+
+**Ángel José Ramírez Leyva**  
+Estudiante de Ingeniería Física – UNI  
+GitHub: [@MAFINPY29](https://github.com/MAFINPY29)
+
 

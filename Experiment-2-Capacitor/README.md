@@ -5,13 +5,13 @@ Este proyecto analiza datos experimentales de carga–voltaje obtenidos de un co
 
 ---
 
-🎯 Objetivos del experimento
+## 🎯 Objetivos del experimento
 
-**Objetivo general**
+### Objetivo general
 
 Determinar la capacitancia de un condensador de placas paralelas a partir del análisis experimental de la relación carga–voltaje.
 
-**Objetivos específicos**
+### Objetivos específicos
 
 - Medir la carga eléctrica en función del voltaje aplicado.
 - Verificar la relación lineal $Q = C V$
@@ -46,7 +46,7 @@ Los datos experimentales fueron:
 - Análisis de residuos
 - Estimación de incertidumbre experimental
 
-📌 El análisis computacional se desarrolló en cuadernos Jupyter Notebook (Google Colab).
+> 📌 El análisis computacional se desarrolló en cuadernos Jupyter Notebook (Google Colab).
 
 ---
 
@@ -56,6 +56,8 @@ Los datos experimentales fueron:
 - Verificación de la relación inversa entre capacitancia y distancia entre placas.
 - Discusión de errores y comparación con el modelo teórico.
 
+---
+
 ## 🧠 Herramientas utilizadas
 - Python
 - Pandas
@@ -63,7 +65,7 @@ Los datos experimentales fueron:
 - Matplotlib
 - Google Colab
 
-
+---
 
 ## ⚙️ Cómo ejecutar
 - Subir el archivo Excel con los datos experimentales a Google Colab
@@ -72,7 +74,7 @@ Los datos experimentales fueron:
 - Todos los gráficos y resultados numéricos se generarán automáticamente
 
 ## 🎓 Contexto académico
-Curso: Física Experimental Universitaria
+Curso: Física 3
 Facultad: Ciencias
 Carrera: Ingeniería Física
 Universidad: Universidad Nacional de Ingeniería (UNI)

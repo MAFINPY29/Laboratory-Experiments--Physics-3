@@ -1,51 +1,53 @@
-# Experimental Capacitance Estimation via Data Analysis
+# Experimento 2: Carga de un condensador
 
-## Overview
-This project analyzes experimental charge–voltage data obtained from a parallel-plate capacitor
-to estimate its capacitance at two different plate separations (4 mm and 6 mm).
-The analysis combines fundamental experimental physics with data analysis techniques using Python.
+## 📌 Descripción general
+Este proyecto analiza datos experimentales de carga–voltaje obtenidos de un condensador de placas paralelas para estimar su capacitancia a dos separaciones diferentes entre placas (4 mm y 6 mm). El análisis combina fundamentos de física experimental con técnicas de análisis de datos utilizando Python.
 
-## Physical Background
-For a capacitor, the electric charge and the applied voltage are related by:
+## 🎯 Contexto físico
+Para un condensador, la carga eléctrica y el voltaje aplicado se relacionan mediante:
+$
+Q = C \. V
+$
+Esta relación lineal permite determinar la capacitancia como la pendiente de un ajuste lineal de carga versus voltaje.
 
-\[
-Q = C V
-\]
+## 🧪 Conjunto de datos
+El conjunto de datos consiste en mediciones experimentales de la carga eléctrica para cuatro valores diferentes de voltaje. Para cada voltaje y separación entre placas, la carga se midió tres veces para reducir errores aleatorios. Los datos fueron recolectados durante un curso universitario de física experimental..
 
-This linear relationship allows the capacitance to be determined as the slope of a linear fit
-of charge versus voltage.
+## ⚙️ Metodología de análisis de datos
 
-## Dataset
-The dataset consists of experimental measurements of electric charge for four different voltage values.
-For each voltage and plate separation, the charge was measured three times to reduce random errors.
-The data were collected during a university-level experimental physics course.
+Se realizaron los siguientes pasos:
+1. Carga y limpieza de los datos desde un archivo Excel
+2. Promediado de mediciones repetidas de carga
+3. Ajuste lineal mediante el método de mínimos cuadrados
+4. Análisis de residuos para evaluar la calidad del ajuste
+5. Estimación de la incertidumbre en la capacitancia
 
-## Data Analysis Methodology
-The following steps were performed:
-- Loading and cleaning the data from an Excel file
-- Averaging repeated charge measurements
-- Performing linear regression using the least squares method
-- Residual analysis to evaluate fit quality
-- Estimating the uncertainty in the capacitance
+## 📊 Resultados
+Se obtuvieron valores de capacitancia para ambas separaciones entre placas. Los resultados muestran la disminución esperada de la capacitancia al aumentar la distancia entre placas, consistente con la teoría electrostática.
 
-## Results
-Capacitance values were obtained for both plate separations.
-The results show the expected decrease in capacitance when the distance between the plates increases,
-consistent with electrostatic theory.
+## 🧠 Herramientas utilizadas
+Python
+Pandas
+NumPy
+Matplotlib
+Google Colab
 
-## Tools
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Google Colab
+## ⚙️ Cómo ejecutar
+Subir el archivo Excel con los datos experimentales a Google Colab
+Abrir el cuaderno de Jupyter Notebook
+Ejecutar todas las celdas
+Todos los gráficos y resultados numéricos se generarán automáticamente
 
-## How to Run
-1. Upload the Excel dataset to Google Colab
-2. Open the notebook and run all cells
-3. All plots and numerical results will be generated automatically
+## 🎓 Contexto académico
+Curso: Física Experimental Universitaria
+Facultad: Ciencias
+Carrera: Ingeniería Física
+Universidad: Universidad Nacional de Ingeniería (UNI)
 
-## Author
-Undergraduate student in Engineering Physics  
-Experimental data analysis project
+Este proyecto forma parte de un portafolio académico orientado a fortalecer la formación en análisis experimental y programación científica, con miras a postulaciones académicas y becas internacionales.
+
+📬 Autor
+Ángel José Ramírez Leyva
+Estudiante de Ingeniería Física – UNI
+GitHub: @MAFINPY29
 

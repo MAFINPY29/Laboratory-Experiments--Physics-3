@@ -5,13 +5,18 @@ Este proyecto analiza datos experimentales de carga–voltaje obtenidos de un co
 
 ---
 
-## 🎯 Contexto físico
-Para un condensador, la carga eléctrica y el voltaje aplicado se relacionan mediante:
-$
-Q = C \. V
-$
-Esta relación lineal permite determinar la capacitancia como la pendiente de un ajuste lineal de carga versus voltaje.
+🎯 Objetivos del experimento
 
+Objetivo general
+Determinar la capacitancia de un condensador de placas paralelas a partir del análisis experimental de la relación carga–voltaje.
+
+Objetivos específicos
+
+- Medir la carga eléctrica en función del voltaje aplicado.
+- Verificar la relación lineal $Q = C V$
+- Estimar la capacitancia como la pendiente del ajuste lineal.
+- Comparar la capacitancia para distintas separaciones entre placas.
+- Analizar la calidad del ajuste mediante residuos e incertidumbre experimental.
 ---
 
 ## 🧪 Conjunto de datos
@@ -19,14 +24,12 @@ El conjunto de datos consiste en mediciones experimentales de la carga eléctric
 
 ---
 
-## ⚙️ Metodología de análisis de datos
+##  Metodología experimental
 
-Se realizaron los siguientes pasos:
-1. Carga y limpieza de los datos desde un archivo Excel
-2. Promediado de mediciones repetidas de carga
-3. Ajuste lineal mediante el método de mínimos cuadrados
-4. Análisis de residuos para evaluar la calidad del ajuste
-5. Estimación de la incertidumbre en la capacitancia
+- Se aplicaron distintos valores de voltaje al condensador.
+- Para cada voltaje se midió la carga almacenada.
+- Cada medición fue repetida tres veces.
+- Los datos fueron registrados en Excel para su posterior análisis.
 
 ---
 

@@ -92,5 +92,7 @@ Este proyecto forma parte de un portafolio académico orientado a fortalecer la 
 ## 📬 Autor
 
 **Ángel José Ramírez Leyva**
+
 Estudiante de Ingeniería Física – UNI
+
 GitHub: [@MAFINPY29](https://github.com/MAFINPY29)
